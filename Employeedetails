@@ -1,0 +1,22 @@
+package Automation;
+import java.util.Scanner;
+
+public class Employeedetails {
+
+	
+	    public static void main(String[] args) {
+	    	 System.out.println("The Employee Details Are:");
+	        Scanner scanner = new Scanner(System.in);
+	        System.out.println("Enter the Employee Name:");
+	        String name = scanner.nextLine();
+	        System.out.println("Enter the Employee ID:");
+	        int id = scanner.nextInt();
+	        System.out.println("Enter the Employee Salary:");
+	        double salary = scanner.nextDouble();
+	        scanner.nextLine();
+	        System.out.println("Enter the Employee Department:");
+	        String department = scanner.nextLine();
+	    }
+
+
+	}
