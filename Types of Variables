@@ -1,0 +1,28 @@
+1.Local Variable
+             -Declare inside a method.
+             -only accessible within that block.
+Example:
+void Localvariable() {
+    int a = 100; 
+    System.out.println(a);
+}
+2.Instance Variable
+             -Declared inside a class but outside methods
+             -Belong to each object
+Example:
+class Staticvariable(){
+    String name;
+}
+3.Static Variable
+            -Declared using the static keyword.
+            -Shared by all objects of the class.
+Example:
+static String name="abcdef";
+4.Paramater variable
+            -Declared inside the parentheses of a method.
+            -Used to pass data into the method
+Example":
+class Example {
+    void Parametervariable(String name) {
+        System.out.println( name);
+    }
